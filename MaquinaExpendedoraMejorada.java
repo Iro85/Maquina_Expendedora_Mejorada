@@ -83,7 +83,13 @@ public class MaquinaExpendedoraMejorada {
                 balanceClienteActual = balanceClienteActual - precioBillete;
                 numeroBilletes ++;
                 if (tipoMaquina == true){
-                    System.out.println("# Billete de tren especial");
+                     // Simula la impresion de un billete especial
+                     System.out.println("##################");
+                     System.out.println("# Billete de tren especial:");
+                     System.out.println("# De " + estacionOrigen + " a " + estacionDestino);
+                     System.out.println("# " + precioBillete + " euros.");
+                     System.out.println("##################");
+                     System.out.println(); 
                 }
             }
             else {
